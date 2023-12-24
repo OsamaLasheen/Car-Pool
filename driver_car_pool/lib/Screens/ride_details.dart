@@ -88,8 +88,8 @@ class _RideDetailsState extends State<RideDetails> {
                   builder: (context, snapshot) {
                     if(snapshot.hasData){
                       Map<Object?, Object?> trip = snapshot.data?['trip'];
-                      bool anyPending = snapshot.data?['anyPending'];
-                      bool bookedUsersFound = snapshot.data?['bookedUsersFound'];
+                      bool anyPending = snapshot.data?['anyPending'] ?? false;
+                      bool bookedUsersFound = snapshot.data?['bookedUsersFound'] ?? false;
                       return Column(
                         children: [
                           Container(
