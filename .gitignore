@@ -1,0 +1,12 @@
+user_car_pool/ios/
+user_car_pool/web/
+user_car_pool/macos/
+user_car_pool/windows/
+user_car_pool/build/
+user_car_pool/.idea/
+driver_car_pool/ios/
+driver_car_pool/web/
+driver_car_pool/macos/
+driver_car_pool/windows/
+driver_car_pool/build/
+driver_car_pool/.idea/
